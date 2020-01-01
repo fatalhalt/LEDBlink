@@ -125,7 +125,7 @@ int main(void)
 ```
 
 ## Linux?
-This will also work on GNU/Linux distro, MacOS, or *BSD, you just need to replace backslashes with forward slashes. Actually in Ubuntu it is very convenient to install ```apt-get install arduino-mk' and create small Makefile that includes Arduino.mk, albeit this approach is as bare and doesn't give you a clear overview what's going on under the hood.
+This will also work on GNU/Linux distro, MacOS, or *BSD, you just need to replace backslashes with forward slashes. Actually in Ubuntu it is very convenient to install ```apt-get install arduino-mk``` and create small Makefile that includes Arduino.mk, albeit this approach isn't as bare and doesn't give you a clear overview what's going on under the hood.
 
 ## What's Next?
 Next would be to use <avr/io.h> <util/delay.h> without any of the Arduino's core.a to blink a LED.
